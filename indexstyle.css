@@ -1,0 +1,312 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;}
+
+  /*-----------------------------------------------------------------------------------------------------*/
+
+  #navcontainer {
+    background-image: url("homepage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+
+  #navbar {
+      list-style-type: none;
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      top: 30px;
+      right: 5%;
+  }
+
+  li {
+      float: right;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px 17px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+  }
+
+  li a:hover {background: rgba(200, 0, 0, 0.5); border-radius: 2px;transition: 0.2s;}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#title {
+  position: absolute;
+  text-align: center;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  line-height: 50px;
+}
+
+#hi {font-weight: 300; font-size: 35px;}
+#myname {font-weight: 700; font-size: 40px;}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.subtext {
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section1 {
+  clear: none;
+  display: block;
+  height: 140px;
+  width: 100%;
+  background-color: #252b33;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+#polilogo {
+  background-image: url("polilogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  vertical-align: top;
+}
+
+#politext {
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+#politext p {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-100%);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section2 {
+  clear: none;
+  display: block;
+  height: 140px;
+  width: 100%;
+  background-color: #181823;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+#mkwiilogo {
+  background-image: url("mkwiilogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  vertical-align: top;
+}
+
+#mkwiitext {
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+#mkwiitext p {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-100%);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section3 {
+  clear: none;
+  display: block;
+  height: 140px;
+  width: 100%;
+  background-color: #252b33;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+#cameralogo {
+  background-image: url("cameralogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  vertical-align: top;
+}
+
+#cameratext {
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+#cameratext p {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-100%);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section4 {
+  clear: none;
+  display: block;
+  height: 140px;
+  width: 100%;
+  background-color: #181823;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+#youtubelogo {
+  background-image: url("youtubelogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  vertical-align: top;
+}
+
+#youtubetext {
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+#youtubetext p {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-100%);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#section5 {
+  clear: none;
+  display: block;
+  height: 140px;
+  width: 100%;
+  background-color: #252b33;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+#magiclogo {
+  background-image: url("magiclogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  vertical-align: top;
+}
+
+#magictext {
+  display: inline-block;
+  height: 140px;
+  width: 400px;
+}
+
+#magictext p {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-100%);
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#foot {
+  clear: none;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+#facebooklink {
+  background-image: url("facebooklogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+#instagramlink {
+  background-image: url("instagramlogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+#youtubelink {
+  background-image: url("youtubelogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+}
