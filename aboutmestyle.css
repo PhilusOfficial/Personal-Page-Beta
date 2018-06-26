@@ -11,10 +11,13 @@ body {
   text-align: center;
 }
 
+a visited{color: yellow;}
+a {color: white;}
+
   /*-----------------------------------------------------------------------------------------------------*/
 
   #navcontainer {
-    background-image: url("polihub.jpg");
+    background-image: url("bovisa.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 580px;

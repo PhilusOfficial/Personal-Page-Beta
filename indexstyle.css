@@ -78,7 +78,9 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #252b33;
+  background-image: url("bovisa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -116,7 +118,9 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #181823;
+  background-image: url("mkwii.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
@@ -154,7 +158,9 @@ body {
   display: block;
   height: 140px;
   width: 100%;
-  background-color: #252b33;
+  background-image: url("photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
