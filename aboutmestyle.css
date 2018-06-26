@@ -4,6 +4,13 @@ body {
   padding: 0;
   background-color: #181823;}
 
+.text {
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
   /*-----------------------------------------------------------------------------------------------------*/
 
   #navcontainer {
@@ -72,12 +79,62 @@ body {
 
 /*-----------------------------------------------------------------------------------------------------*/
 
-.text {
-  top: 750px;
+#section1 {
+  display:block;
+  clear:none;
+  padding-top:200px;
+  padding-bottom: 50px;
   margin-left: 20%;
   margin-right: 20%;
-  position: absolute;
-  font-weight: 300;
-  font-size: 20px;
-  color: white;
+  line-height: 35px;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+#foot {
+  clear: none;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+#facebooklink {
+  background-image: url("facebooklogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+#instagramlink {
+  background-image: url("instagramlogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+#youtubelink {
+  background-image: url("youtubelogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
 }
