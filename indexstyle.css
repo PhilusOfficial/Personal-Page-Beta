@@ -6,6 +6,10 @@ body {
 
   /*-----------------------------------------------------------------------------------------------------*/
 
+  .dropdown-content {display: none; position: absolute;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown-content a {text-align: left;}
+
   #navcontainer {
     background-image: url("homepage.jpg");
     background-size: cover;
