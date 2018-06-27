@@ -92,6 +92,8 @@ p {max-height: 999999px;}
   clear: none;
   height: 540px;
   width: 100%;
+  text-align: center;
+  float: left;
 }
 
 iframe {
@@ -100,14 +102,17 @@ iframe {
 }
 
 .videocontainer {
-  position: absolute;
-  transform: translate(-50%,-50%);
-  top: 1520px;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  transition: 0.5s;
 }
 
-.video1 {left: 50%;}
-.video2 {left: 1920px; display:none;}
-.video3 {right: 0px;display:none;}
+#video1 {}
+#video2 {transform: translate(0, -100%);}
+#video3 {transform: translate(0, -200%);}
+
+.nodisplay {display: none;}
 
 /*-----------------------------------------------------------------------------------------------------*/
 
