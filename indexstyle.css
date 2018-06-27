@@ -72,6 +72,7 @@ body {
 .subtext {
   font-weight: 300;
   font-size: 20px;
+  -webkit-font-size: 20px;
   color: white;
 }
 
