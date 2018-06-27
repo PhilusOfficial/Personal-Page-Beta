@@ -90,19 +90,32 @@ p {max-height: 999999px;}
 #section2 {
   display: block;
   clear: none;
+  height: 540px;
+  width: 100%;
 }
 
 iframe {
   border:0;
+  box-shadow: 0px 0px 24px 10px black;
 }
 
 .videocontainer {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 1520px;
 }
+
+.video1 {left: 50%;}
+.video2 {left: 1920px; display:none;}
+.video3 {right: 0px;display:none;}
 
 /*-----------------------------------------------------------------------------------------------------*/
 
 #section3 {
-
+  padding-top: 30px;
+  padding-bottom: 50px;
+  display:block;
+  clear: none;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
