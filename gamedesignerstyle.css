@@ -12,8 +12,8 @@ body {
 }
 
 
-a {color: orange; text-decoration: none;}
-a hover{text-decoration: underline;}
+.text a {color: orange; text-decoration: none;}
+.text a:hover{opacity:0.7;}
 
   /*-----------------------------------------------------------------------------------------------------*/
 
@@ -82,6 +82,10 @@ a hover{text-decoration: underline;}
   font-size: 20px;
 }
 
+iframe {
+  border:0;
+}
+
 /*-----------------------------------------------------------------------------------------------------*/
 
 #foot {
@@ -108,6 +112,8 @@ a hover{text-decoration: underline;}
   vertical-align: top;
 }
 
+#facebooklink:hover {opacity: 0.7}
+
 #instagramlink {
   background-image: url("instagramlogo.png");
   background-size: contain;
@@ -120,6 +126,8 @@ a hover{text-decoration: underline;}
   width: 50px;
 }
 
+#instagramlink:hover {opacity: 0.7}
+
 #youtubelink {
   background-image: url("youtubelogo.png");
   background-size: contain;
@@ -131,3 +139,5 @@ a hover{text-decoration: underline;}
   height: 50px;
   width: 50px;
 }
+
+#youtubelink:hover {opacity: 0.7}

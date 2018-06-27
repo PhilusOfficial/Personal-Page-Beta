@@ -101,6 +101,8 @@ body {
   vertical-align: top;
 }
 
+#polilogo:hover {opacity: 0.75;}
+
 #politext {
   display: inline-block;
   height: 140px;
@@ -140,6 +142,8 @@ body {
   width: 140px;
   vertical-align: top;
 }
+
+#mkwiilogo:hover {opacity: 0.75;}
 
 #mkwiitext {
   display: inline-block;
@@ -181,6 +185,8 @@ body {
   vertical-align: top;
 }
 
+#cameralogo:hover {opacity: 0.75;}
+
 #cameratext {
   display: inline-block;
   height: 140px;
@@ -220,6 +226,8 @@ body {
   width: 140px;
   vertical-align: top;
 }
+
+#youtubelogo:hover {opacity: 0.75;}
 
 #youtubetext {
   display: inline-block;
@@ -261,6 +269,8 @@ body {
   vertical-align: top;
 }
 
+#magiclogo:hover {opacity: 0.75;}
+
 #magictext {
   display: inline-block;
   height: 140px;
@@ -301,6 +311,8 @@ body {
   vertical-align: top;
 }
 
+#facebooklink:hover {opacity: 0.7}
+
 #instagramlink {
   background-image: url("instagramlogo.png");
   background-size: contain;
@@ -313,6 +325,8 @@ body {
   width: 50px;
 }
 
+#instagramlink:hover {opacity: 0.7}
+
 #youtubelink {
   background-image: url("youtubelogo.png");
   background-size: contain;
@@ -324,3 +338,5 @@ body {
   height: 50px;
   width: 50px;
 }
+
+#youtubelink:hover {opacity: 0.7}
