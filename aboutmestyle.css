@@ -4,6 +4,8 @@ body {
   padding: 0;
   background-color: #181823;}
 
+  p {max-height: 999999px;}
+
 .text {
   font-weight: 300;
   font-size: 20px;
