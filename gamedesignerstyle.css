@@ -74,61 +74,81 @@ p {max-height: 999999px;}
 
 /*-----------------------------------------------------------------------------------------------------*/
 
-#section1 {
-  display:block;
-  clear:none;
+#section1 {border: solid 1px white;
+  top: 580px;
+  position: absolute;
   padding-top:50px;
   padding-bottom: 50px;
   margin-left: 20%;
   margin-right: 20%;
   line-height: 35px;
   font-size: 20px;
+  height: inherit;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
-
-#section2 {
-  display: block;
-  clear: none;
-  height: 540px;
-  width: 100%;
-  text-align: center;
-  float: left;
-}
 
 iframe {
   border:0;
   box-shadow: 0px 0px 24px 10px black;
 }
 
-.videocontainer {
-  display: inline-block;
-  margin: 0;
-  position: relative;
-  transition: 0.5s;
+.videocontainer {border: solid 1px white;
+  top: 1520px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
 }
 
 #video1 {}
-#video2 {transform: translate(0, -100%);}
-#video3 {transform: translate(0, -200%);}
+#video2 {}
+#video3 {}
 
-.nodisplay {display: none;}
+.nodisplay {z-index: -1;}
 
 /*-----------------------------------------------------------------------------------------------------*/
 
-#section3 {
+#section3 {border: solid 1px white;
+  position: absolute;
+  top: 1800px;
+  height: inherit;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.dot {
+  display: inline-block;
+  margin: 7px;
+  height: 15px;
+  width: 15px;
+  border-radius:999px;
+  border: 1px solid white;
+}
+
+.fulldot {background-color: white;}
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+.section4 {
+  position: absolute;
+  top: 100px;
   padding-top: 30px;
   padding-bottom: 50px;
-  display:block;
-  clear: none;
+  width: 100%;
+  height: 30px;
+  border: solid 1px white;
 }
 
 /*-----------------------------------------------------------------------------------------------------*/
 
 
 #foot {
-  clear: none;
-  display: block;
+  top:500px;
+  position: absolute;
   height: 50px;
   width: 100%;
   background-color: black;
