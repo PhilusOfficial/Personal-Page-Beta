@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="gamedesignerstyle.css">
     <script src="jquery.min.js"></script>
     <script src="mkwiiscript.js"></script>
+    <script>
+jQuery(function(){
+   jQuery('#dot1').click();
+});
+</script>
 
   </head>
 
@@ -73,7 +78,7 @@ Wii custom tracks. You can find my page on the wiki <a href="http://wiki.tockdom
   <br>
 
   <div id="dotcontainer" style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
+    <span id="dot1" class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
