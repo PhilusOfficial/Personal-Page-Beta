@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="gamedesignerstyle.css">
     <script src="jquery.min.js"></script>
     <script src="mkwiiscript.js"></script>
-    
+
   </head>
 
 <body id="body">
@@ -49,22 +49,34 @@ These are some of the custom tracks I released during all these years. There als
 Wii custom tracks. You can find my page on the wiki <a href="http://wiki.tockdom.com/wiki/Multimariokartds">here</a>.
   </p>
 
-  <div class="slider-holder">
-          <span id="slider-image-1"></span>
-          <span id="slider-image-2"></span>
-          <span id="slider-image-3"></span>
-          <div class="image-holder">
-              <iframe src="https://www.youtube.com/embed/qW0r0yTyRwc" class="slider-image"></iframe>
-              <iframe src="https://www.youtube.com/embed/wjGar2pDcd4" class="slider-image"></iframe>
-              <iframe src="https://www.youtube.com/embed/PoZWKlDHwF8" class="slider-image"></iframe>
-          </div>
-      </div>
+  <div class="slideshow-container">
 
-      <div class="button-holder">
-          <a href="#slider-image-1" class="slider-change"></a>
-          <a href="#slider-image-2" class="slider-change"></a>
-          <a href="#slider-image-3" class="slider-change"></a>
-      </div>
+  <div class="mySlides fade">
+    <iframe src="https://www.youtube.com/embed/qW0r0yTyRwc"></iframe>
+    <div class="captext">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <iframe src="https://www.youtube.com/embed/wjGar2pDcd4"></iframe>
+    <div class="captext">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <iframe src="https://www.youtube.com/embed/PoZWKlDHwF8"></iframe>
+    <div class="captext">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
 
   <div id="foot">
 
