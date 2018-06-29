@@ -68,7 +68,7 @@ p {max-height: 999999px;}
 #pagetitle {
   position: absolute;
   text-align: center;
-  top: 240px;
+  top: 250px;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
