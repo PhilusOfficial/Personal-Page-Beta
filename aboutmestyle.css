@@ -20,7 +20,7 @@ body {
 
   /*-----------------------------------------------------------------------------------------------------*/
 
-  .dropdown-content {display: none; position: absolute;}
+  .dropdown-content {position: absolute; display: none;}
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown-content a {text-align: left;}
 
