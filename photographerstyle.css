@@ -81,7 +81,7 @@ body {
 #section1 {
   display:block;
   clear:none;
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 50px;
   margin-left: 20%;
   margin-right: 20%;
@@ -91,20 +91,21 @@ body {
 /*-----------------------------------------------------------------------------------------------------*/
 
 * {box-sizing: border-box}
-.mySlides {display: none}
+.mySlides1 {display: none}
+.mySlides2 {display: none}
 
 img {
   vertical-align: middle;
-  height: auto;
-  width: 900px;
+  height: 580px;
+  width: auto;
   border: 0;
   margin: 0;
   padding: 0;
 }
 
 .slideshow-container {
-  width: 900px;
-  height: 600px;
+  width: 870px;
+  height: 580px;
   position: relative;
   margin: auto;
   background-color: black;
@@ -140,28 +141,13 @@ img {
   color: white;
   font-weight: 300;
   font-size: 20px;
-  transform: translate(0, 80px);
+  transform: translate(0, 35px);
   padding: 8px 12px;
   display: block;
   width: 100%;
   text-align: center;
 }
 
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #717171;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-#dotcontainer {
-  transform: translate(0, 0);
-  margin-top: 20px;
-}
 
 .active, .dot:hover {
   background-color: white;
@@ -192,8 +178,8 @@ img {
   height: 50px;
   width: 100%;
   background-color: black;
-  padding-top: 80px;
-  padding-bottom: 150px;
+  padding-top: 70px;
+  padding-bottom: 190px;
   text-align: center;
 }
 
